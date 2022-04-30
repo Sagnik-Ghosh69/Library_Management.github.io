@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+h3{
+    font-size: 10px;
+}
+#profile{
+    border: 2px solid black;
+}
+.row{
+    border: 5px solid rgb(115, 115, 115);
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button a:hover{
+    color: black;
+}
+#logout:hover{
+    border: 3px solid black;
+}
