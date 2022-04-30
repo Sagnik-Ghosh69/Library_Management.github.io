@@ -37,27 +37,26 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#abt">About Us</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#" id="navbarDropdown" role="button"
-              aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link" href="#fc" id="navbarDropdown" role="button" aria-expanded="false">
               Collections
             </a>
-            
+
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#alizeh">Contact Us</a>
           </li>
         </ul>
 
         <button class="btn btn-outline-light" type="submit">
           <a href="librarian_login_page.html" target="_blank" rel="noopener noreferrer">Librarian</a>
         </button>
-        <button class="btn btn-outline-light mx-3" type="submit" >
+        <button class="btn btn-outline-light mx-3" type="submit">
           <a href="student.html" target="_blank" rel="noopener noreferrer">Student</a>
         </button>
       </div>
@@ -79,7 +78,7 @@
     </div>
   </div>
 
-  <section class="aboutPage">
+  <section class="aboutPage" id="abt">
     <div class="container">
       <h1 class="text-center p-4">About Us</h1>
       <div class="row">
@@ -117,210 +116,126 @@
   </section>
 
   <!-- FLIP CARD -->
-  <section class="flipcard">
-    <div class="container my-5" style="height: 500px;">
-      <div class="row my-3 h-50" >
-        <div class="col-lg-4">
-          <div class="flip-card" style="width: 100%;">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
+  <div class="container" id="fc">
+    <h1 class="text-center my-5">Collections</h1>
+    <div class="row">
+      <div class="col-md-4 p-5">
+        <div class="flip-card" style="height: 300px; width: 300px;">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Images/Flip/1.jpg" alt="Avatar" style="width:100%;height:100%;">
             </div>
-          </div>            
-        </div>
-        <div class="col-lg-4">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
+            <div class="flip-card-back d-flex align-items-center justify-content-center">
+              <div class="flipbackcontent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, laudantium molestias? Natus velit ea est mollitia, numquam harum dolor incidunt?</p>
               </div>
             </div>
           </div>
-          
-        </div>
-        <div class="col-lg-4">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>            
         </div>
       </div>
-  
+      <div class="col-md-4 p-5">
+        <div class="flip-card" style="height: 300px; width: 300px;">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Images/Flip/2.jpg" alt="Avatar" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back d-flex align-items-center justify-content-center">
+              <div class="flipbackcontent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, laudantium molestias? Natus velit ea est mollitia, numquam harum dolor incidunt?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-5">
+        <div class="flip-card" style="height: 300px; width: 300px;">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Images/Flip/3.jpg" alt="Avatar" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back d-flex align-items-center justify-content-center">
+              <div class="flipbackcontent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, laudantium molestias? Natus velit ea est mollitia, numquam harum dolor incidunt?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-5">
+        <div class="flip-card" style="height: 300px; width: 300px;">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Images/Flip/4.jpg" alt="Avatar" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back d-flex align-items-center justify-content-center">
+              <div class="flipbackcontent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, laudantium molestias? Natus velit ea est mollitia, numquam harum dolor incidunt?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-5">
+        <div class="flip-card" style="height: 300px; width: 300px;">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Images/Flip/5.png" alt="Avatar" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back d-flex align-items-center justify-content-center">
+              <div class="flipbackcontent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, laudantium molestias? Natus velit ea est mollitia, numquam harum dolor incidunt?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 p-5">
+        <div class="flip-card" style="height: 300px; width: 300px;">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="Images/Flip/6.jpg" alt="Avatar" style="width:100%;height:100%;">
+            </div>
+            <div class="flip-card-back d-flex align-items-center justify-content-center">
+              <div class="flipbackcontent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, laudantium molestias? Natus velit ea est mollitia, numquam harum dolor incidunt?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact Form -->
+  <div class="contact_form" id="alizeh">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-4">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
+        <div class="col-lg">
+          <div class="contact_form_container">
+            <div class="contact_form_title">
+              <h1 class="text-center p-4">Contact Us</h1>
             </div>
-          </div>           
-        </div>
-        <div class="col-lg-4">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            <form action="#" id="contact_form">
+              <div
+                class="contact_form_inputs d-flex flex-md-row flex-column justify-content-between align-items-between">
+                <input type="text" id="contact_form_name" class="contact_form_name input_field"
+                  placeholder="Enter Your name" required="required" data-error="Name is required.">
+                <input type="text" id="contact_form_email" class="contact_form_email input_field"
+                  placeholder="Enter Your Email" required="required" data-error="Email is required.">
+                <input type="text" id="contact_form_phone" class="contact_form_phone input_field"
+                  placeholder="Enter Your phone number">
               </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>            
-        </div>
-        <div class="col-lg-4">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>            
+              <div class="contact_form_text"> <textarea id="contact_form_message"
+                  class="text_field contact_form_message" name="message" rows="4" placeholder="Message"
+                  required="required" data-error="Please, write us a message."></textarea> </div>
+              <div class="contact_form_button"> <button type="submit"
+                  class="button contact_submit_button">Submit</button> </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- <div class="row">
-      <div class="col-lg-4">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
-            </div>
-          </div>
-        </div>            
-      </div>
-      <div class="col-lg-4">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
-            </div>
-          </div>
-        </div>            
-      </div>
-      <div class="col-lg-4">
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-            </div>
-            <div class="flip-card-back">
-              <h1>John Doe</h1>
-              <p>Architect & Engineer</p>
-              <p>We love that guy</p>
-            </div>
-          </div>
-        </div>            
-      </div>
-    </div> -->
-</section>
-
-  <!-- CONTACT FORM -->
-  <section class="contact-form">
-    <!-- <div class="contact_info">
-      <div class="container">
-          <div class="row"> -->
-    <!-- <div class="col-lg-10 offset-lg-1">
-                  <div class="contact_info_container d-flex flex-lg-row flex-column justify-content-between align-items-between">
-                       Contact Item --
-                      <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
-                          <div class="contact_info_image"><img src="https://img.icons8.com/office/24/000000/iphone.png" alt=""></div>
-                          <div class="contact_info_content">
-                              <div class="contact_info_title">Phone</div>
-                              <div class="contact_info_text">+91 9876 543 2198</div>
-                          </div>
-                      </div> Contact Item --
-                      <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
-                          <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/filled-message.png" alt=""></div>
-                          <div class="contact_info_content">
-                              <div class="contact_info_title">Email</div>
-                              <div class="contact_info_text">contact@bbbootstrap.com</div>
-                          </div>
-                      </div> Contact Item --
-                      <div class="contact_info_item d-flex flex-row align-items-center justify-content-start">
-                          <div class="contact_info_image"><img src="https://img.icons8.com/ultraviolet/24/000000/map-marker.png" alt=""></div>
-                          <div class="contact_info_content">
-                              <div class="contact_info_title">Address</div>
-                              <div class="contact_info_text">298,Menlo Park,CA,USA</div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div> -->
-    </div> <!-- Contact Form -->
-    <div class="contact_form">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg">
-            <div class="contact_form_container">
-              <div class="contact_form_title">
-                <h1 class="text-center p-4">Contact Us</h1>
-              </div>
-              <form action="#" id="contact_form">
-                <div
-                  class="contact_form_inputs d-flex flex-md-row flex-column justify-content-between align-items-between">
-                  <input type="text" id="contact_form_name" class="contact_form_name input_field"
-                    placeholder="Enter Your name" required="required" data-error="Name is required.">
-                  <input type="text" id="contact_form_email" class="contact_form_email input_field"
-                    placeholder="Enter Your Email" required="required" data-error="Email is required.">
-                  <input type="text" id="contact_form_phone" class="contact_form_phone input_field"
-                    placeholder="Enter Your phone number">
-                </div>
-                <div class="contact_form_text"> <textarea id="contact_form_message"
-                    class="text_field contact_form_message" name="message" rows="4" placeholder="Message"
-                    required="required" data-error="Please, write us a message."></textarea> </div>
-                <div class="contact_form_button"> <button type="submit"
-                    class="button contact_submit_button">Submit</button> </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="panel"></div>
-    </div>
+    <div class="panel"></div>
+  </div>
   </section>
   <!-- FOOTER -->
   <footer class="w-100 py-4 flex-shrink-0 footer">
